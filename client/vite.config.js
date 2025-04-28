@@ -8,5 +8,6 @@ export default defineConfig({
     preview: {
         port: 4173, // 👈 important!
         host: true, // 👈 expose to 0.0.0.0
+        allowedHosts: ["chat-application-client-ajgw.onrender.com"],
     },
 });
